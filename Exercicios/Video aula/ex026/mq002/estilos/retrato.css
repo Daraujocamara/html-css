@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-/*tela em pé*/
-
-body{
-    background-image: url('../imagens/cev-portrait.jpg');
-    background-position:center bottom;
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
