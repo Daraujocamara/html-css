@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Midia Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae necessitatibus tempora, minima hic eaque possimus, adipisci, delectus excepturi quos tenetur suscipit quaerat? Laudantium iste voluptate totam id impedit tempore at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia dolore itaque, minima molestias, voluptatem odio dicta doloribus ab cumque alias eaque voluptate quisquam, rerum voluptates tenetur veniam culpa dolor.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam beatae temporibus ipsa maxime quia eligendi odio quidem? Expedita modi repudiandae assumenda architecto placeat perferendis, mollitia culpa provident doloribus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium a assumenda quia doloribus, iusto voluptatum nostrum distinctio saepe accusamus mollitia, tempora itaque iure cumque fugiat recusandae dignissimos pariatur odio aut!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis eum modi doloribus corrupti dolorem laboriosam provident facere, molestiae quod, harum voluptatibus libero aliquid, excepturi cum fuga consequatur incidunt assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus unde architecto similique tempore sit dignissimos impedit officiis libero sunt perferendis cumque in consequuntur modi quia eius aperiam corrupti maxime.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
